@@ -1,6 +1,6 @@
 {
 	"@context": "http://iiif.io/api/presentation/2/context.json",
-	"@id": "https://mojiportal.nabunken.go.jp/manifest/emuseum/100405001/100405001.json",
+	"@id": "https://ta-niiyan.github.io/moji/100405001.json",
 	"@type": "sc:Manifest",
 	"label": [
 		{
@@ -661,7 +661,7 @@
 					}
 				},
 				{
-					"@id": "https://mojiportal.nabunken.go.jp/manifest/emuseum/100405001/100405001.json/canvas/P001",
+					"@id": "https://ta-niiyan.github.io/moji/100405001.json/canvas/P001",
 					"@type": "sc:Canvas",
 					"label": "4",
 					"height": 5030,
@@ -672,7 +672,7 @@
 							"@context": "http://iiif.io/api/presentation/2/context.json",
 							"motivation": "sc:painting",
 							"resource": {
-								"@id": "https://mojiportal.nabunken.go.jp/manifest/emuseum/100405001/100405001.json/canvas/P001",
+								"@id": "https://ta-niiyan.github.io/moji/100405001.json/canvas/P001",
 								"@type": "dctypes:Image",
 								"format": "image/jpeg",
 								"service": {
@@ -708,7 +708,7 @@
 						}
 					],
 
-"otherContent": [{"@id": "https://mojiportal.nabunken.go.jp/manifest/emuseum/100405001/list/annotation_100405001_P001.json","@type": "sc:AnnotationList"}],
+"otherContent": [{"@id": "https://ta-niiyan.github.io/moji/annotation_100405001_P001.json","@type": "sc:AnnotationList"}],
 
 					"thumbnail": {
 						"@id": "https://emuseum.nich.go.jp/img/content/100405001000/9/thumbnail.jpeg",
@@ -716,7 +716,7 @@
 					}
 				},
 				{
-					"@id": "https://mojiportal.nabunken.go.jp/manifest/emuseum/100405001/100405001.json/canvas/P002",
+					"@id": "https://ta-niiyan.github.io/moji/100405001.json/canvas/P002",
 					"@type": "sc:Canvas",
 					"label": "5",
 					"height": 5030,
