@@ -1,0 +1,39 @@
+/*
+ * -- BASE STYLES --
+ * Most of these are inherited from Base, but I want to change a few.
+ */
+ 
+ body {
+    color: #526066;
+  }
+  
+  a {
+    color: #3b8bba;
+    text-decoration:none
+  }
+  
+  h2,
+  h3 {
+    letter-spacing: 0.25em;
+    font-weight: 600;
+    text-align: center;
+  }
+  
+  p {
+    line-height: 1.6em;
+  }
+  
+  footer {
+    text-align: center;
+  }
+
+  /*
+   * -- Layout Styles --
+   */
+  .l-content {
+    margin: 0 auto;
+  }
+  
+  .l-box {
+    padding: 0.5em 2em;
+  }
