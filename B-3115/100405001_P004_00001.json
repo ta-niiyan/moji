@@ -551,14 +551,14 @@
 							"on": "https://emuseum.nich.go.jp/iiif/?IIIF=/100405001000-009.tif"
 						}
 					],
-                    "otherContent": [
-                        {
-                            "@id": "https://ta-niiyan.github.io/moji/B-3115/100405001_P004_00001_annotation.json",
-                            "@type": "sc:AnnotationList"
-                        }
-                    ]
+					"otherContent": [
+						{
+							"@id": "https://ta-niiyan.github.io/moji/B-3115/100405001_P004_00001_annotation.json",
+							"@type": "sc:AnnotationList"
+						}
+					]
 				}
-            ]
+			]
 		}
-    ]
+	]
 }
