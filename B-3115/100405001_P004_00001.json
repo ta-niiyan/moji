@@ -505,7 +505,7 @@
             "@type": "sc:sequence",
             "canvases": [
                 {
-					"@id": "https://emuseum.nich.go.jp/iiif/?IIIF=/100405001000-009.tif/full/full/0/default.jpg",
+					"@id": "https://ta-niiyan.github.io/moji/B-3115/100405001_P004_00001.json/canvas/P004",
 					"@type": "sc:Canvas",
 					"label": "4",
 					"height": 5030,
@@ -516,7 +516,7 @@
 							"@context": "http://iiif.io/api/presentation/2/context.json",
 							"motivation": "sc:painting",
 							"resource": {
-								"@id": "https://emuseum.nich.go.jp/iiif/?IIIF=/100405001000-009.tif/full/full/0/default.jpg",
+								"@id": "https://ta-niiyan.github.io/moji/B-3115/100405001_P004_00001.json/canvas/P004",
 								"@type": "dctypes:Image",
 								"format": "image/jpeg",
 								"service": {
