@@ -37,3 +37,41 @@
   .l-box {
     padding: 0.5em 2em;
   }
+
+  .flex-container {
+    display: flex;
+  }
+
+  .flex-row {
+    display: flex;
+    gap: 4px;
+  }
+  
+  .flex-row+.flex-row {
+    margin-top: 4px;
+  }
+  
+  .flex-item {
+    padding: 4px;
+  }
+  
+  .flex-item:nth-child(1) {
+    flex: 1;
+  }
+  
+  .flex-item:nth-child(2) {
+    flex: 2;
+  }
+  
+  .flex-item:nth-child(3) {
+    flex: 1;
+  }
+
+  /*
+   * -- Mirador Styles --
+   */
+  #mirador {
+    height: 600px;
+    position: relative;
+    width: 100%;
+   }
