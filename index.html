@@ -1,94 +1,143 @@
 <!DOCTYPE html>
+<!--
+	Phantom by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
 <html lang="ja">
- <head>
- <meta charset="utf-8">
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <meta name="description" content="史的文字連携をテストする">
+    <head>
+        <title>Text Data Packaging for Cultural Properties</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="文化財が有する文字のデータパッケージ化に向けての試行">
+        <link rel="stylesheet" href="./css/normalize.css">
+        <link rel="stylesheet" href="./css/main.css" />
+        
+        <!-- [if lt IE 9] -->
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+        <!-- [endif] -->
+    </head>
 
- <title>e-museum to moji-portal</title>
- 
 
- <link rel="stylesheet" href="./css/normalize.css">
- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css" integrity="sha384-X38yfunGUhNzHpBaEBsWLO+A0HDYOQi8ufWDkZ0k9e0eXz/tH3II7uKZ9msv++Ls" crossorigin="anonymous">
- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/grids-responsive-min.css">
- <link rel="stylesheet" href="./css/styles.css">
+    <body class="is-preload">
+        <!----- Wrapper ----->
+        <div id="wrapper">
+            <!----- Header----->
+            <header id="header">
+                <div class="inner">
+                    <!-- Logo -->
 
- 
- <!-- [if lt IE 9] -->
- <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
- <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
- <!-- [endif] -->
+                    <!-- Navigation -->
+                    <nav>
+                        <ul>
+                            <li><a href="#menu">Menu</a></li>
+                        </ul>
+                    </nav>
 
- </head>
- <body>
- <!----- header----->
- 
- <!----- /header ----->
- 
- <!----- main ----->
+                </div>
+            </header>
+            <!----- /Header ----->
+
+            <!----- Menu ----->
+			<nav id="menu">
+				<h2>Menu</h2>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+                    <li><a href="generic.html">史的文字連携</a></li>
+					<li><a href="generic.html">TEI構造化</a></li>
+					<li><a href="generic.html">参考リンク</a></li>
+				</ul>
+			</nav>
+            <!----- /Menu ----->
+            
+            <!----- Main ----->
+            <div id="main">
+                <div class="inner">
+                    <header>
+                        <h2>文化財が有する文字のデータパッケージ化に向けての試行</h2>
+                        <p>史資料が有する諸情報をどのようにしてデータパッケージ化することができるか試行しています。史資料を有する機関が提供するデータパッケージに求められる情報粒度と提供方法はどのようなものか検討しています。広範かつ多様な利活用、そして、継続的なデータ提供の在り方も課題となっています。<br>
+                        手始めとして、東京国立博物館蔵「<a href="https://colbase.nich.go.jp/collection_items/tnm/B-3115">B-3115 古今和歌集　二条為明筆</a>」の仮名序について実験をおこなっています。<br>
+                        作品中にある文字を情報化し、<a href="https://mojiportal.nabunken.go.jp">史的文字データベース連携検索システム</a>への参画を試行したり、TEIに基づく構造化をおこなったりしています。</p>
+                    </header>
+                    <section class="tiles">
+                        <article class="style1">
+                            <span class="image">
+                                <img src="images/mokkan_capture.jpg" alt="" />
+                            </span>
+                            <a href="generic.html">
+                                <h2>史的文字連携データベースへの登録</h2>
+                                <div class="content">
+                                    <p>一文字単位の情報を「史的文字連携データベース検索システム」に収録することによって、連携機関が整備している文字資料との比較が可能になります。</p>
+                                </div>
+                            </a>
+                        </article>
+                        <article class="style1">
+                            <span class="image">
+                                <img src="images/pic02.jpg" alt="" />
+                            </span>
+                            <a href="generic.html">
+                                <h2>IIIF画像への文字アノテーション</h2>
+                                <div class="content">
+                                    <p>記載文字についてアノテーションを付与したファイル群です。</p>
+                                </div>
+                            </a>
+                        </article>
+                        <article class="style1">
+                            <span class="image">
+                                <img src="images/pic03.jpg" alt="" />
+                            </span>
+                            <a href="generic.html">
+                                <h2>TEIに基づく構造化</h2>
+                                <div class="content">
+                                    <p>テキストをTEIに基づき構造化しています。</p>
+                                </div>
+                            </a>
+                        </article>
+                    </section>
+                </div>
+            </div>
+            
+            <!----- Footer ----->
+            <footer id="footer">
+                <div class="inner">
+                    <section>
+                        <h2>謝辞</h2>
+                        <p>本サイトにおける試行は、<a href="https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-20H00010/">「コンテキストに応じた人文科学データパッケージ化に関する研究」</a>代表：山家浩樹 基盤研究(A) 20H00010 において実施されたものです。</p>
+                    </section>
+                    
+                    <ul class="copyright">
+                        <li>&copy; 2023- Takayuki Ako. All rights reserved</li><li>Site Template: <a href="http://html5up.net">HTML5 UP</a></li>
+                    </ul>
+                </div>
+            </footer>            
+            <!----- /Footer ----->
+
+        </div>
+        <!----- /Wrapper ----->
+
+        <!-- Scripts -->
+            <script src="./js/jquery.min.js"></script>
+			<script src="./js/browser.min.js"></script>
+			<script src="./js/breakpoints.min.js"></script>
+			<script src="./js/util.js"></script>
+			<script src="./js/main.js"></script>
+        <!-- /Scripts -->
+        
+
+
  <article>
- <h2>史資料のデータパッケージ化に向けての試行</h2>
+    <p>
+        文字ごとにannotaionを付与した例：<a href="https://mojiportal.nabunken.go.jp/mirador/?manifest=https://mojiportal.nabunken.go.jp/manifest/emuseum/100405001/100405001.json">Miradorで表示</a>
 
- <div id=layout class="pure-g">
-    <div class="pure-u-1-5" ></div>
-    <div class="pure-u-3-5" >
-        <p>　史資料が有する諸情報をどのようにしてデータパッケージ化することができるか試行しています。史資料を有する機関が提供するデータパッケージに求められる情報粒度と提供方法はどのようなものか検討しています。広範かつ多様な利活用、そして、継続的なデータ提供の在り方も課題となっています。<br>
-        　手始めとして、東京国立博物館蔵「<a href="https://colbase.nich.go.jp/collection_items/tnm/B-3115">B-3115 古今和歌集　二条為明筆</a>」の仮名序について実験をおこなっています。<br>
-        　作品中にある文字を情報化し、<a href="https://mojiportal.nabunken.go.jp">史的文字データベース連携検索システム</a>への参画を試行したり、TEIに基づく構造化をおこなったりしています。</p>
-    </div>
-    <div class="pure-u-1-5" ></div>
-
-    <div class="information pure-g">
-        <div class="pure-u-1 pure-u-md-1-2">
-            <div class="l-box">
-                <h3 class="information-head">IIIF Annotationの活用</h3>
-                <p>
-                    文字ごとにannotaionを付与した例：<a href="https://mojiportal.nabunken.go.jp/mirador/?manifest=https://mojiportal.nabunken.go.jp/manifest/emuseum/100405001/100405001.json">Miradorで表示</a>
-
-                </p>
-            </div>
-        </div>
-
-        <div class="pure-u-1 pure-u-md-1-2">
-            <div class="l-box">
-                <h3 class="information-head">IIIIF Manifest fileなど</h3>
-                <p>
-                    <ul>
-                        <li><a href="">IIIF Manifest file</a></li>
-                        <li><a href="">IIIF Annotaion file(全文)</a></li>
-                        <li><a href="">IIIF Annotaion files(文字単位)</a></li>
-                    </ul>
-                </p>
-            </div>
-        </div>
-
-        <div class="pure-u-1 pure-u-md-1-2">
-            <div class="l-box">
-                <h3 class="information-head">TEIに基づく構造化</h3>
-                <p>
-                    文章構造を付したテキスト情報を提供
-                </p>
-            </div>
-        </div>
-
-        <div class="pure-u-1 pure-u-md-1-2">
-            <div class="l-box">
-                <h3 class="information-head">参考</h3>
-                <p>
-                    <ul>
-                        <li><a href="https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-20H00010/">「コンテキストに応じた人文科学データパッケージ化に関する研究」</a>代表：山家浩樹 基盤研究(A) 20H00010</li>
-                    </ul>
-                </p>
-            </div>
-        </div>
-    </div> <!-- end information -->
-
- </div>
+    </p>
+    <ul>
+        <li><a href="">IIIF Manifest file</a></li>
+        <li><a href="">IIIF Annotaion file(全文)</a></li>
+        <li><a href="">IIIF Annotaion files(文字単位)</a></li>
+    </ul>
  </article>
- <!----- /main ----->
  
- <!----- footer ----->
- <footer>by AKO Takayuki</footer>
- <!----- /footer ----->
+ <!----- /Main ----->
  </body>
 </html>
