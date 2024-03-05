@@ -63,39 +63,71 @@
     <div class=".pure-u-1-2">
         <div class="l-box">
             <!----- Data table ----->
-            <table class="pure-table pure-table-horizontal">
-                <tbody>
-                    <tr>
-                        <th>ID</th>
-                        <td>100405001_P004_00001</td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <th>文字</th>
-                        <td>や</td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <th>文字コード</th>
-                        <td>3084</td>
-                        <td><a href="https://glyphwiki.org/wiki/u3084">Glyphwiki Link</a></td>
-                    </tr>
-                    <tr>
-                        <th>出典</th>
-                        <td>「古今和歌集」二条為明筆（B-3115）</td>
-                        <td><a href="https://emuseum.nich.go.jp/detail?content_base_id=100405&content_part_id=001&langId=ja&webView=">e国宝 Link</a></td>
-                    </tr>
-                    <tr>
-                        <th>頁</th>
-                        <td>1丁裏</td>
-                    </tr>
-                </tbody>
-            </table>
+            <section>
+                <div class="flex-row">
+                    <div class="flex-item">ID</div>
+                    <div class="flex-item">100405001_P004_00001</div>
+                    <div class="flex-item"></div>
+                </div>
+                <div class="flex-row">
+                    <div class="flex-item">文字</div>
+                    <div class="flex-item">や</div>
+                    <div class="flex-item"></div>
+                </div>
+                <div class="flex-row">
+                    <div class="flex-item">文字コード</div>
+                    <div class="flex-item">3084</div>
+                    <div class="flex-item"><a href="https://glyphwiki.org/wiki/u3084">Glyphwiki Link</a></div>
+                </div>
+                <div class="flex-row">
+                    <div class="flex-item">出典</div>
+                    <div class="flex-item">「古今和歌集」二条為明筆（B-3115）</div>
+                    <div class="flex-item"><a href="https://emuseum.nich.go.jp/detail?content_base_id=100405&content_part_id=001&langId=ja&webView=">e国宝 Link</a></div>
+                </div>
+                <div class="flex-row">
+                    <div class="flex-item">頁</div>
+                    <div class="flex-item">1丁裏</div>
+                    <div class="flex-item"></div>
+                </div>
+            </section>
             <!----- Data table ----->
+
             <p>IIIF Manifest：<a href="https://ta-niiyan.github.io/moji/B-3115/100405001_P004_00001.json">https://ta-niiyan.github.io/moji/B-3115/100405001_P004_00001.json</a></p>
         </div>
     </div>
 </div>
+
+
+<!----- Mirador Embedded----->
+<div id="mirador"></div>
+<script src="https://unpkg.com/mirador@latest/dist/mirador.min.js"></script>
+<script>
+    const url =
+      'https://ta-niiyan.github.io/moji/B-3115/100405001_P004_00001.json'
+
+    const config = {
+      id: 'mirador',
+      language: 'ja',
+      windows: [
+        {
+          manifestId: url,
+        },
+      ],
+      window: {
+        allowClose: false,
+        allowMaximize: false,
+        allowFullscreen: true,
+        forceDrawAnnotations: true,
+        hideWindowTitle: true,
+        highlightAllAnnotations: true,
+      },
+      workspaceControlPanel: {
+        enabled: false,
+      },
+    }
+    Mirador.viewer(config)
+  </script>
+<!----- Mirador Embedded----->
 
  </article>
  <!----- /main ----->
