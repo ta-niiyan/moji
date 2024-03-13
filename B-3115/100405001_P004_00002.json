@@ -1,0 +1,564 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://ta-niiyan.github.io/moji/B-3115/100405001_P004_00002.json",
+    "@type": "sc:Manifest",
+    "label": [
+		{
+			"@value": "e国宝 - 古今和歌集",
+			"@language": "ja"
+		},
+		{
+			"@value": "e-Museum - Collection of Ancient and Modern Japanese Poems (Kokin Waka-shū)",
+			"@language": "en"
+		},
+		{
+			"@value": "e国宝 - 古今和歌集",
+			"@language": "zh"
+		},
+		{
+			"@value": "e국보 - 고킨와카슈",
+			"@language": "ko"
+		}
+	],
+	"metadata": [
+		{
+			"label": [
+				{
+					"@value": "指定区分",
+					"@language": "ja"
+				},
+				{
+					"@value": "Designation",
+					"@language": "en"
+				},
+				{
+					"@value": "指定等级",
+					"@language": "zh"
+				},
+				{
+					"@value": "문화재 지정 구분",
+					"@language": "ko"
+				}
+			],
+			"value": [
+				{
+					"@value": "重要文化財",
+					"@language": "ja"
+				},
+				{
+					"@value": "Important Cultural Property",
+					"@language": "en"
+				},
+				{
+					"@value": "重要文化财",
+					"@language": "zh"
+				},
+				{
+					"@value": "중요문화재",
+					"@language": "ko"
+				}
+			]
+		},
+		{
+			"label": [
+				{
+					"@value": "分野",
+					"@language": "ja"
+				},
+				{
+					"@value": "Category",
+					"@language": "en"
+				},
+				{
+					"@value": "类别",
+					"@language": "zh"
+				},
+				{
+					"@value": "분야",
+					"@language": "ko"
+				}
+			],
+			"value": [
+				{
+					"@value": "書跡",
+					"@language": "ja"
+				},
+				{
+					"@value": "Calligraphy",
+					"@language": "en"
+				},
+				{
+					"@value": "书法",
+					"@language": "zh"
+				},
+				{
+					"@value": "서예",
+					"@language": "ko"
+				}
+			]
+		},
+		{
+			"label": [
+				{
+					"@value": "名称よみ",
+					"@language": "ja"
+				}
+			],
+			"value": [
+				{
+					"@value": "こきんわかしゅう",
+					"@language": "ja"
+				}
+			]
+		},
+		{
+			"label": [
+				{
+					"@value": "指定名称",
+					"@language": "ja"
+				}
+			],
+			"value": [
+				{
+					"@value": "紙本墨書古今集",
+					"@language": "ja"
+				}
+			]
+		},
+		{
+			"label": [
+				{
+					"@value": "作者",
+					"@language": "ja"
+				},
+				{
+					"@value": "Creator",
+					"@language": "en"
+				},
+				{
+					"@value": "作者",
+					"@language": "zh"
+				},
+				{
+					"@value": "작자",
+					"@language": "ko"
+				}
+			],
+			"value": [
+				{
+					"@value": "二条為明筆",
+					"@language": "ja"
+				},
+				{
+					"@value": "By Nijō Tameaki",
+					"@language": "en"
+				},
+				{
+					"@value": "二条为明笔",
+					"@language": "zh"
+				},
+				{
+					"@value": "니조타메아키 필",
+					"@language": "ko"
+				}
+			]
+		},
+		{
+			"label": [
+				{
+					"@value": "作者よみ",
+					"@language": "ja"
+				}
+			],
+			"value": [
+				{
+					"@value": "にじょうためあき",
+					"@language": "ja"
+				}
+			]
+		},
+		{
+			"label": [
+				{
+					"@value": "員数",
+					"@language": "ja"
+				},
+				{
+					"@value": "Quantity",
+					"@language": "en"
+				},
+				{
+					"@value": "数量",
+					"@language": "zh"
+				},
+				{
+					"@value": "수량",
+					"@language": "ko"
+				}
+			],
+			"value": [
+				{
+					"@value": "1帖",
+					"@language": "ja"
+				},
+				{
+					"@value": "1 folding book",
+					"@language": "en"
+				},
+				{
+					"@value": "1帖",
+					"@language": "zh"
+				},
+				{
+					"@value": "1점",
+					"@language": "ko"
+				}
+			]
+		},
+		{
+			"label": [
+				{
+					"@value": "品質形状",
+					"@language": "ja"
+				},
+				{
+					"@value": "Media",
+					"@language": "en"
+				},
+				{
+					"@value": "材质形状",
+					"@language": "zh"
+				},
+				{
+					"@value": "재질/형태",
+					"@language": "ko"
+				}
+			],
+			"value": [
+				{
+					"@value": "紙本墨書",
+					"@language": "ja"
+				},
+				{
+					"@value": "Ink on paper",
+					"@language": "en"
+				},
+				{
+					"@value": "纸本墨书",
+					"@language": "zh"
+				},
+				{
+					"@value": "지본묵서",
+					"@language": "ko"
+				}
+			]
+		},
+		{
+			"label": [
+				{
+					"@value": "法量",
+					"@language": "ja"
+				},
+				{
+					"@value": "Dimensions",
+					"@language": "en"
+				},
+				{
+					"@value": "尺寸",
+					"@language": "zh"
+				},
+				{
+					"@value": "크기",
+					"@language": "ko"
+				}
+			],
+			"value": [
+				{
+					"@value": "24.9×15.8",
+					"@language": "ja"
+				},
+				{
+					"@value": "24.9x15.8",
+					"@language": "en"
+				},
+				{
+					"@value": "24.9×15.8",
+					"@language": "zh"
+				},
+				{
+					"@value": "24.9×15.8",
+					"@language": "ko"
+				}
+			]
+		},
+		{
+			"label": [
+				{
+					"@value": "時代・世紀",
+					"@language": "ja"
+				},
+				{
+					"@value": "Period,Century",
+					"@language": "en"
+				},
+				{
+					"@value": "年代・世纪",
+					"@language": "zh"
+				},
+				{
+					"@value": "시대・세기",
+					"@language": "ko"
+				}
+			],
+			"value": [
+				{
+					"@value": "鎌倉時代・14世紀",
+					"@language": "ja"
+				},
+				{
+					"@value": "Kamakura period/14th century",
+					"@language": "en"
+				},
+				{
+					"@value": "镰仓时代 14世纪",
+					"@language": "zh"
+				},
+				{
+					"@value": "가마쿠라시대·14세기",
+					"@language": "ko"
+				}
+			]
+		},
+		{
+			"label": [
+				{
+					"@value": "所蔵者",
+					"@language": "ja"
+				},
+				{
+					"@value": "Owner",
+					"@language": "en"
+				},
+				{
+					"@value": "收藏家",
+					"@language": "zh"
+				},
+				{
+					"@value": "소장자",
+					"@language": "ko"
+				}
+			],
+			"value": [
+				{
+					"@value": "東京国立博物館",
+					"@language": "ja"
+				},
+				{
+					"@value": "Tokyo National Museum",
+					"@language": "en"
+				},
+				{
+					"@value": "东京国立博物馆",
+					"@language": "zh"
+				},
+				{
+					"@value": "도쿄국립박물관",
+					"@language": "ko"
+				}
+			]
+		},
+		{
+			"label": [
+				{
+					"@value": "各館作品番号",
+					"@language": "ja"
+				},
+				{
+					"@value": "Collection reference no.",
+					"@language": "en"
+				},
+				{
+					"@value": "机构管理序号",
+					"@language": "zh"
+				},
+				{
+					"@value": "기관관리번호",
+					"@language": "ko"
+				}
+			],
+			"value": [
+				{
+					"@value": "B-3115",
+					"@language": "ja"
+				},
+				{
+					"@value": "B-3115",
+					"@language": "en"
+				},
+				{
+					"@value": "B-3115",
+					"@language": "zh"
+				},
+				{
+					"@value": "B-3115",
+					"@language": "ko"
+				}
+			]
+		}
+	],
+	"description": [
+		{
+			"@value": "二条為明(1295～1364)は二条為藤(？～1324)の息子で歌人。『新拾遺和歌集』の撰者となるが完成前に没したため、頓阿(南北朝時代の歌人、1289～1372)が引き継いだ。為明の書は、自署のある「詠草」(個人蔵)が残されており、法性寺流や定家流の影響が見られる。\n本帖には、元亨4年(1324)書写の奥書と二条為世、二条為定らの伝授奥書、さらに、貞応2年(1223)7月23日の藤原定家(1162～1241)の本奥書が記されている。\n",
+			"@language": "ja"
+		},
+		{
+			"@value": "Nijo Tameaki (1295 – 1364) is a son of Nijo Tamefuji (? – 1324) and a poet. Although he was appointed as a selector for the \"Shin Shui Wakashu,\" he died before the completion of the anthology and Ton'a (a poet in the North and South Courts period, 1289 – 1372) took over the role. Among Tameaki's writings, \"Eiso\" with his autograph (in private possession) still remains, which shows the influence of the Hosshoji and Teika schools. \nThis book has a postscript stating that this copy was made in 1324, another postscript stating that instruction was received from Nijo Tameyo and Tamesada and the original postscript written by Fujiwara no Sadaie (1162 – 1241) on July 23, 1223.\n",
+			"@language": "en"
+		},
+		{
+			"@value": "二条为明（1295~1364）为二条为藤（？~1324）之子，歌人（诗人）。作为《新拾遗和歌集》的编纂者，在作品完成前逝世，因此由顿阿（南北朝时代的歌人，1289~1372）继承其衣钵。为明的书法流传有自题的“咏草”（个人收藏），可见其受到了法性寺流及定家流的影响。\n本帖中记载有书写于元享4年（1324年）的批注和二条为世、二条为定等的传授批注，以及贞应2年（1223年）7月23日藤原定家（1162~1241）的原始批注。\n",
+			"@language": "zh"
+		},
+		{
+			"@value": "  니조 다메아키라(1295~1364)는 니조 다메후지(?~1324)의 아들로 가인(歌人)이다. 『신슈이와카슈(新拾遺和歌集)』의 편찬자이지만 완성 전에 사망하여 돈아(남북조 시대의 가인, 1289~1372)가 작업을 이었다. 다메아키라의 글로는 직접 서명한 「에이소(詠草)」(개인 소장)가 남아있으며 홋쇼지류와 데이카류의 영향을 엿볼 수 이다.\n  본 첩에는 겐코 4년(1324)에 옮겨 쓴 오쿠가키와 니조 다메요, 니조 다메사다의 전수(傳授) 오쿠가키, 조오 2년(1223) 7월 23일자 후지와라노 사다이에(1162~1241)의 본 오쿠가키가 기록되어 있다.\n",
+			"@language": "ko"
+		}
+	],
+	"thumbnail": {
+		"@id": "https://emuseum.nich.go.jp/img/content/100405001000/6/thumbnail.jpeg",
+		"@type": "dctypes:Image",
+		"height": 200,
+		"width": 147
+	},
+	"viewingHint": "individuals",
+	"viewingDirection": "right-to-left",
+	"license": "https://emuseum.nich.go.jp/about",
+	"attribution": [
+		{
+			"@value": "独立行政法人国立文化財機構",
+			"@language": "ja"
+		},
+		{
+			"@value": "National Institutes for Cultural Heritage",
+			"@language": "en"
+		},
+		{
+			"@value": "国立文化财机构",
+			"@language": "zh"
+		},
+		{
+			"@value": "국립문화재기구",
+			"@language": "ko"
+		}
+	],
+	"logo": [
+		{
+			"@id": "https://emuseum.nich.go.jp/assets/img/logo.png"
+		}
+	],
+	"rendering": {
+		"@id": "https://emuseum.nich.go.jp/detail?langId=ja&webView=&content_base_id=100405&content_part_id=1&content_pict_id=0",
+		"label": [
+			{
+				"@value": "e国宝 - 古今和歌集",
+				"@language": "ja"
+			},
+			{
+				"@value": "e-Museum - Collection of Ancient and Modern Japanese Poems (Kokin Waka-shū)",
+				"@language": "en"
+			},
+			{
+				"@value": "e国宝 - 古今和歌集",
+				"@language": "zh"
+			},
+			{
+				"@value": "e국보 - 고킨와카슈",
+				"@language": "ko"
+			}
+		],
+		"format": "text/html"
+	},
+	"within": {
+		"@id": "https://emuseum.nich.go.jp/iiifapi/100405000/collection.json",
+		"@type": "sc:Collection",
+		"label": [
+			{
+				"@value": "古今和歌集",
+				"@language": "ja"
+			},
+			{
+				"@value": "Collection of Ancient and Modern Japanese Poems (Kokin Waka-shū)",
+				"@language": "en"
+			},
+			{
+				"@value": "古今和歌集",
+				"@language": "zh"
+			},
+			{
+				"@value": "고킨와카슈",
+				"@language": "ko"
+			}
+		]
+	},
+    "sequences": [
+        {
+            "@type": "sc:sequence",
+            "canvases": [
+                {
+					"@id": "https://ta-niiyan.github.io/moji/B-3115/100405001_P004_00002.json/canvas/P004",
+					"@type": "sc:Canvas",
+					"label": "4",
+					"height": 5030,
+					"width": 6386,
+					"images": [
+						{
+							"@type": "oa:Annotation",
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://ta-niiyan.github.io/moji/B-3115/100405001_P004_00002.json/canvas/P004",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://emuseum.nich.go.jp/iiif/?IIIF=/100405001000-009.tif",
+									"profile": [
+										"http://iiif.io/api/image/2/level1.json",
+										{
+											"formats": [
+												"jpg"
+											],
+											"qualities": [
+												"native",
+												"color",
+												"gray"
+											],
+											"supports": [
+												"regionByPct",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"sizeAboveFull",
+												"rotationBy90s",
+												"mirroring",
+												"gray"
+											]
+										}
+									]
+								},
+								"height": 5030,
+								"width": 6386
+							},
+							"on": "https://emuseum.nich.go.jp/iiif/?IIIF=/100405001000-009.tif"
+						}
+					],
+					"otherContent": [
+						{
+							"@id": "https://ta-niiyan.github.io/moji/B-3115/100405001_P004_00002_annotation.json",
+							"@type": "sc:AnnotationList"
+						}
+					]
+				}
+			]
+		}
+	]
+}
