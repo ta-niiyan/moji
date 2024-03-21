@@ -1,0 +1,19 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://ta-niiyan.github.io/moji/B-3115/100405001_P012_00093_annotation.json",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "100405001_P012_00093",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "も",
+                "format": "text/plain",
+                "language": "ja"
+            },
+            "on": "https://ta-niiyan.github.io/moji/B-3115/100405001_P012_00093.json/canvas/P012#xywh=4644,4054,200,302"
+        }
+    ]
+}
